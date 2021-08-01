@@ -1,0 +1,38 @@
+body{
+    background-color: slategrey;
+    
+   }
+.header{
+    width: 1000px;
+    margin:0 auto;
+    border: 1px red solid;
+   
+}
+.header:after{
+    clear:both;
+    display: table;
+    content:"";
+}
+h1{
+    border: 1px red solid;
+    margin:0 auto;
+    background-color: green;
+    font-style: normal;
+    color: white;
+
+}
+.image{
+    float:left;
+    width:333px;
+}
+.image img{
+    width:100%;
+}
+.description{
+    float:right;
+    width:667px;
+}
+.footer{
+    clear:both;
+    
+}
