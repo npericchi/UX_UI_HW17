@@ -1,20 +1,40 @@
+
+    
 header {
+    background-color: whitesmoke;
     display: inline-block;
     vertical-align: top;
-  
+    
 }
+
 .inline-block{
     display: inline-block;
     margin-top: 0%;
 }
 
+.logo {
+    float:left;
+    padding: 0px;
+}
+
+.navigation{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0%;
+}
+
+nav{
+    width: 73%;
+    margin-left: auto;
+}
 
 
 
-ul{
+nav ul{
     display: inline-block;
-    width:73%;
+    width:80%;
     padding:1%;
+    margin: 0;
 }
 
 
@@ -25,11 +45,10 @@ ul{
 
 }
 
-ul{
+nav li{
     display: inline-block;
-    vertical-align: top;
-    
-}
-.li {
+    vertical-align: top;    
     padding: 4px;
+    margin-left: 60px;
+    
 }
