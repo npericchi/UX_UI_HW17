@@ -1,13 +1,15 @@
 header {
     display: inline-block;
     vertical-align: top;
+  
+}
+.inline-block{
+    display: inline-block;
+    margin-top: 0%;
 }
 
-.logo {
-    width:23%;
-    padding:1%;
-    text-align-last: center;
-}
+
+
 
 ul{
     display: inline-block;
