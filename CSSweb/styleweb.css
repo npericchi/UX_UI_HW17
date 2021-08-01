@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(135, 216, 205);
+    
+   }
+.inline-block{
+
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width:23%;
+    padding:1%;
+}
+
+.header{
+    width: 1000px;
+    margin:0 auto;
+    border: 1px red solid;
+   
+}
+.header:after{
+    clear:both;
+    display: table;
+    content:"";
+}
+h1{
+    border: 1px red solid;
+    margin:0 auto;
+    background-color: green;
+    font-style: normal;
+    color: white;
+
+}
+.in-lineblock{
+    float:left;
+    width:333px;
+}
+.in-lineblock img{
+    width:100%;
+}
+.description{
+    float:right;
+    width:667px;
+}
+.footer{
+    clear:both;
+    
+}

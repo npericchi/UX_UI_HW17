@@ -1,7 +1,33 @@
 body{
-    background-color: slategrey;
+    background-color: rgb(135, 216, 205);
     
    }
+.inline-block{
+
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width:23%;
+    padding:1%
+}
+
+.image {
+    width: 200pxl;
+}
+
+nav{
+    width: 73%;
+    padding: 1%;
+}
+
+ul{
+    width:50%;
+    margin-left: auto;
+}
+
+
 .header{
     width: 1000px;
     margin:0 auto;
@@ -21,11 +47,11 @@ h1{
     color: white;
 
 }
-.image{
+.in-lineblock{
     float:left;
     width:333px;
 }
-.image img{
+.in-lineblock img{
     width:100%;
 }
 .description{
