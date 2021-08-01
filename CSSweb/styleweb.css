@@ -18,3 +18,23 @@ ul{
     width:50%;
     margin-left: auto;
 }
+
+image{
+    height: 600 px;
+    padding: 25px;
+}
+
+.content{
+    width:500px;
+    margin:0 auto;
+
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.li {
+    padding: 4px;
+}
