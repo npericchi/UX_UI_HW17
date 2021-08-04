@@ -4,28 +4,33 @@ header {
     background-color: whitesmoke;
     display: inline-block;
     vertical-align: top;
+    border: 1px red solid;
     
 }
 
 .inline-block{
     display: inline-block;
     margin-top: 0%;
+    border: 1px red solid;
 }
 
 .logo {
     float:left;
     padding: 0px;
+    border: 1px red solid;
 }
 
 .navigation{
     width: 80%;
     margin: 0 auto;
     padding: 0%;
+    border: 1px red solid;
 }
 
 nav{
     width: 73%;
     margin-right: auto;
+    border: 1px red solid;
 }
 
 
@@ -35,6 +40,7 @@ nav ul{
     width:80%;
     padding:1%;
     margin: 0;
+    border: 1px red solid;
 }
 
 
@@ -42,8 +48,15 @@ nav ul{
 .content{
     width:500px;
     margin:0 auto;
-
+    border: 1px red solid;
 }
+
+.content:after{
+    clear:both;
+    display: table;
+    content:"";
+}
+    
 
 nav li{
     display: inline-block;
