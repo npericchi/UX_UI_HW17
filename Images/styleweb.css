@@ -1,42 +1,51 @@
 
     
 header {
-    display: inline-block;
-    
+    /* display: inline-block; */
+    display: flex;
 }
 
-.profile{
-    float: left;
+img{
+    width:25%;
+
 
 }
+.image {
+    display:inline;
+}
+
+
 .content{
-    float:right;
+    /* float:inline-end; */
+    width:75%;
     border: 1px red solid;
+    font-family: 'Inconsolata', monospace;
 }
 
 
 
-.inline-block{
+/* .inline-block{
     display: inline-block;
-    margin-top: 0%;
-}
+    margin-top: 0%; */
+/* } */
 
 
 nav ul{
-    display: inline-block;
-    width:80%;
+    display: flex;
+    width:98%;
     padding:1%;
     margin: 0;
     border: 1px red solid;
+    list-style-type: none;
 }
 
 
 
 nav li{
-    display: inline-block;
+    /* display: inline-block; */
     vertical-align: top;    
     padding: 4px;
-    margin-left: 100%;
+    /* margin-left: 100%; */
     
 }
 
