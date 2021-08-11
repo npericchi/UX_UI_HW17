@@ -1,8 +1,30 @@
 
-    
+body {
+    font-family: 'Inconsolata', monospace;
+}    
+
 header {
     /* display: inline-block; */
     display: flex;
+}
+
+.content{
+    background-color: rgb(241, 241, 200);
+}
+
+h1{
+    color: white;
+    background-color: rgb(3, 95, 3);
+    padding: 2%;
+    margin-top: 0%;
+}
+
+h4{
+    margin-left: 2%;
+}
+
+p {
+    margin-left: 2%;
 }
 
 img{
@@ -16,26 +38,19 @@ img{
 
 
 .content{
-    /* float:inline-end; */
     width:75%;
-    border: 1px red solid;
-    font-family: 'Inconsolata', monospace;
+    /* border: 1px red solid; */
+
 }
 
 
-
-/* .inline-block{
-    display: inline-block;
-    margin-top: 0%; */
-/* } */
-
-
 nav ul{
+    font:bold;
     display: flex;
     width:98%;
     padding:1%;
     margin: 0;
-    border: 1px red solid;
+    /* border: 1px red solid; */
     list-style-type: none;
 }
 
