@@ -45,8 +45,9 @@ img{
 
 
 nav ul{
-    font:bold;
+    font-family: monospace;
     display: flex;
+    justify-content: center;
     width:98%;
     padding:1%;
     margin: 0;
@@ -59,8 +60,10 @@ nav ul{
 nav li{
     /* display: inline-block; */
     vertical-align: top;    
-    padding: 4px;
-    /* margin-left: 100%; */
-    
+    padding: 4px;    
 }
 
+.inline-block {
+    border:black solid 1px;
+
+}
